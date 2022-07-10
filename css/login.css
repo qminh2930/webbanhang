@@ -1,0 +1,138 @@
+/* 
+    form.
+*/
+:root{
+    --bg1: #9bc54d;
+    --bg2: #3f974a;
+    --cg1: rgb(124, 91, 138);
+    --cg2: rgb(204, 204, 204);
+    --text: #26ade4;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
+}
+.admin-heading-panel{
+    background: #717171;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+.container-heading{
+    width: 1200px;
+    margin: 0 auto;
+}
+.table-login{
+    width: 300px;
+    height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+.table-login h1{
+    margin-bottom: 40px;
+}
+.form-text submit{
+    height: 35px;
+    width: 100%;
+    margin-bottom: 30px;
+    background: linear-gradient(to bottom right, var(rgb(75, 155, 108)),var(rgb(44, 190, 166)));
+    border: none;
+    color: #fff;
+}
+.form-text{
+    margin-bottom: 40px;
+    position: relative;
+}
+.form-text input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+    padding-left: 12px;
+    border-radius: 5px;
+}
+.form-text label{
+    position: absolute;
+    left: 12px;
+    bottom: 40px;
+    transition: 0.5s;
+}
+.form-text label.focus{
+    transform: translateY(-45px);
+}
+.button{
+    background-color: #6c36d1; 
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 30px;
+    height: 35px;
+    width: 100%;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, var(--cg1),var(--cg2));
+}
+.form-logout{
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+.button-logout{
+    background-color: #5316c4; 
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+}
+
+
+
+
+
+/*
+.box-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    
+}
+
+
+margin: 0 auto;
+    width: 800px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+    */
